@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    max-width: 1152px;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+.header-top {
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    padding-left: 50px;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    min-height: 100vh;
+    width: 100%;
+  }
+  header {
+    width: 100%;
+    height: 7.2rem;
+  }
+  .navbar {
+    width: 100%;
+    height: 7.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+  }
+  .logo {
+    padding: 1.5rem 0 0 8.5rem;
+  }
+  .logo img {
+    width: 7.6rem;
+    height: 4.2rem;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+  .nav-links li {
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+  }
+  nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2rem;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+  }
+  .nav-login-btn {
+    display: none;
+  }
+  .login-btn {
+    width: 7.5rem;
+    height: 3.1rem;
+    position: relative;
+    right: 8rem;
+  }
+  .login-btn button {
+    padding: 0.6rem 1.6rem;
+    cursor: pointer;
+    background-color: #d01c28;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 1.6rem;
+    font-family: "Inter", sans-serif;
+  }
+  /* hero sec  */
+  section {
+    padding: 10.2rem 0rem 0 12rem;
+  }
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+  }
+  .column-1 {
+    width: 59.5rem;
+  }
+  .column-1 h1 {
+    width: 100%;
+    font-weight: 800;
+    font-size: 5.8rem;
+    line-height: 6.2rem;
+    font-family: "Poppins", sans-serif;
+  }
+  .column-1 .shoe-info {
+    width: 40.4rem;
+    font-weight: 600;
+    font-size: 1.6rem;
+    padding: 2.5rem 0;
+    line-height: 2.4rem;
+    color: #5a5959;
+    font-family: "Poppins", sans-serif;
+  }
+  .btns {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+  }
+  .shop-now {
+    width: 15rem;
+    height: 4.1rem;
+    font-weight: 600;
+    background-color: #d01c28;
+    border: 1px solid #d01c28;
+    color: #fff;
+    font-size: 2.4rem;
+    border: none;
+    padding: 0.6rem 1.6rem;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+  }
+  .category {
+    width: 14.1rem;
+    height: 4.1rem;
+    font-weight: 600;
+    background-color: transparent;
+    color: #5a5959;
+    font-size: 2.4rem;
+    padding: 0.6rem 1.6rem;
+    cursor: pointer;
+    border: 1px solid #000;
+    font-family: "Inter", sans-serif;
+  }
+  
+  .available {
+    color: #5a5959;
+    font-weight: 400;
+    padding: 3rem 0 0;
+    width: 13.1rem;
+    font-size: 1.6rem;
+    font-family: "Inter", sans-serif;
+  }
+  .site-icon {
+    display: flex;
+    align-items: center;
+    gap: 2.75rem;
+    padding: 3rem 0 10rem;
+  }
+  
+  .site-icon img {
+    height: 3.2rem;
+    width: 3.2rem;
+  }
+  .column-2 {
+    height: 100%;
+    padding: 5rem 0;
+  }
+  .column-2 img {
+    width: 53rem;
+    position: relative;
+    top: 1rem;
+    right: 10rem;
+    filter: drop-shadow(13px 25px 10px rgba(0, 0, 0, 0.5));
+  }
+  .nav-logo {
+    display: none;
+  }
+  .cross-icon,
+  .hambur-icon {
+    position: absolute;
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  .hambur-icon {
+    top: 50%;
+    right: 3rem;
+    transform: translateY(-50%);
+  }
+  .cross-icon {
+    top: 2rem;
+    right: 3rem;
+  }
+  #check {
+    display: none;
+  }
+ul.list-style {
+    padding: 0px 25%;
+}
+
+li.list-item {
+    margin-left: 36%;
+}
+
+nav ul li a {
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    color: #2E2E2E;
+}
+
+a.btn {
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: light;
+    transition: background-color 0.3s ease;
+    color: #FFFFFF;
+    background-color: #D01C28;
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger span {
+    height: 3px;
+    width: 25px;
+    background: #333;
+    margin-bottom: 4px;
+    border-radius: 3px;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: calc(100vh - 160px);
+    padding-top: 40px;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.1;
+    color: #000000;
+}
+
+.subtitle {
+    margin: 20px 0;
+    font-size: 16px;
+    color: #555555;
+}
+
+.buttons {
+    display: flex;
+    gap: 16px;
+}
+
+button {
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn0 {
+    background-color: #D01C28;
+    color: white;
+}
+
+.btn1 {
+    border: 1px solid;
+    color: gray;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.social-links {
+    text-align: center;
+    padding: 10px;
+    margin-left: -133vh;
+}
+
+.social-content p {
+    margin: 0;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.social-icons ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: auto;
+}
+
+/* Media Queries */
+@media (max-width: 767px) {
+    /* Mobile devices */
+    .hamburger {
+        display: flex;
+    }
+
+    nav ul {
+        flex-direction: column;
+        display: none;
+        width: 100%;
+        background-color: #f9f9f9;
+        padding: 20px;
+        position: absolute;
+        top: 60px;
+        left: 0;
+    }
+
+    nav ul.show {
+        display: block;
+    }
+
+    nav ul li {
+        padding-left: 0;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    li.list-item {
+        margin-left: 0;
+    }
+
+    .hero-text h1 {
+        font-size: 36px;
+    }
+
+    .subtitle {
+        font-size: 12px;
+    }
+
+    .buttons button {
+        padding: 10px 20px;
+    }
+
+    .social-icons img {
+        width: 24px;
+    }
+
+    .social-links {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* iPad or tablets */
+    body {
+        width: 90%;
+        padding: 10px;
+    }
+
+    nav {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .header-logo img {
+        margin-left: 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav ul li {
+        padding-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .header-logo{
+        margin-left: 2vh;
+    }
+    ul.list-style {
+        padding: 0;
+    }
+
+    li.list-item {
+        margin-left: 0;
+    }
+
+    .hero-container {
+     
+        height: auto;
+        padding-top: 20px;
+    }
+
+
+    .hero-text {
+        max-width: 28%;
+    }
+
+    .hero-image img {
+
+    }
+    .hero-text h1 {
+        font-size: 48px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    a.btn {
+        margin-left: 0;
+        padding: 10px 20px;
+    }
+
+    .hero-image img {
+        max-width: 100%;
+    }
+
+    .social-links {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Laptop screens */
+    body {
+        width: 960px;
+    }
+
+    nav ul {
+        flex-direction: row;
+    }
+
+    .hero-text h1 {
+        font-size: 64px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* Large screens */
+    body {
+        max-width: 1152px;
+        padding: 20px;
+    }
+
+    .hero-text h1 {
+        font-size: 72px;
+    }
+}
+
+@media (max-width: 375px) {
+    /* iPhone XS */
+    body {
+        padding: 10px;
+    }
+
+    nav {
+        padding: 10px;
+    }
+
+    nav ul li {
+        padding-left: 0;
+        margin-bottom: 5px;
+    }
+
+    .hero-text h1 {
+        font-size: 32px;
+    }
+
+    .subtitle {
+        font-size: 10px;
+    }
+
+    .buttons button {
+        padding: 8px 16px;
+    }
+
+    .social-icons img {
+        width: 20px;
+    }
+}
+
