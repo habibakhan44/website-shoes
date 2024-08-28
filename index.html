@@ -1,92 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nike</title>
-    <!-- font-family link poppin -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- inter font link  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- font awesome  -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-
-    <!-- my style sheet -->
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="media.css" />
-  </head>
-  <body>
-    <!-- nav bar  -->
-    <header>
-      <nav class="navbar">
-        <div class="logo">
-          <img src="brand_logo.svg" alt="nike-logo" />
-        </div>
-        <input type="checkbox" id="check" class="click" />
-
-        <ul class="nav-links">
-          <div class="nav-logo">
-            <img src="./images/logo.png" alt="nike-logo" />
-          </div>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">Location</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <label for="check" class="cross-icon">
-            <i class="fa-solid fa-xmark"></i>
-          </label>
-          <div class="nav-login-btn">
-            <button class="nav-login">Login</button>
-          </div>
-        </ul>
-        <div class="login-btn">
-          <button class="login">Login</button>
-        </div>
-        <label for="check" class="hambur-icon">
-          <i class="fa-solid fa-bars"></i>
-        </label>
-      </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header-top">
+        <nav class="navbar">
+            <div class="header-logo">
+                <img src="brand_logo.svg" alt="Nike Logo">
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="list-style" id="nav-menu">
+                <li class="list-items"><a href="#">MENU</a></li>
+                <li class="list-items"><a href="#">LOCATION</a></li>
+                <li class="list-items"><a href="#">ABOUT</a></li>
+                <li class="list-items"><a href="#">CONTACT</a></li>
+                <li class="list-item"><a href="#" class="btn">Login</a></li>
+            </ul>
+        </nav>
     </header>
-    <!-- ============================================================ -->
-    <section>
-      <div class="container">
-        <div class="column-1">
-          <h1>YOUR FEET DESERVE THE BEST</h1>
-          <p class="shoe-info">
-            YOUR FEET DESERVE THE BEST AND WE’RE HERE TO HELP YOU WITH OUR
-            SHOES.YOUR FEET DESERVE THE BEST AND WE’RE HERE TO HELP YOU WITH OUR
-            SHOES.
-          </p>
-          <div class="btns">
-            <button class="shop-now">Shop Now</button>
-            <button class="category">Category</button>
-          </div>
-          <p class="available">Also Available On</p>
-          <div class="site-icon">
-            <img src="flipkart.svg" alt="f-bag" />
-            <img src="amazon.svg" alt="amazon" />
-          </div>
+    <section class="banner">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>YOUR FEET <br> DESERVE <br> THE BEST</h1>
+                <p class="subtitle">
+                    YOUR FEET DESERVE THE BEST AND WE’RE HERE TO 
+                    HELP YOU WITH OUR SHOES. YOUR FEET DESERVE 
+                    THE BEST AND WE’RE HERE TO HELP YOU WITH OUR 
+                    SHOES.
+                </p>
+                <div class="buttons">
+                    <button class="btn0">Shop Now</button>
+                    <button class="btn1">Category</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="shoe_image.svg" alt="Nike Shoe">
+            </div>
         </div>
-        <div class="column-2">
-          <img src="shoe_image.svg" alt="Shoe" />
-        </div>
-      </div>
     </section>
-  </body>
+    <section class="social-links">
+        <div class="social-content">
+            <p>Also Available on </p>
+        </div>
+        <div class="social-icons">
+            <ul>
+                <li><a href="#">
+                    <img src="flipkart.svg" alt=""></a></li>
+                <li><a href="#">
+                    <img src="amazon.svg" alt="">
+                </a></li>
+            </ul>
+        </div>
+    </section>
+</body>
+<script>
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('nav-menu');
+
+    hamburger.addEventListener('click', () => {
+        navMenu.classList.toggle('show');
+    });
+</script>
 </html>
